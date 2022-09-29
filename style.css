@@ -161,6 +161,8 @@ bottom: 18%;
      border: 1px solid rgb(212, 202, 202);
      border-radius: 2px;
      margin: 5px;
+     box-shadow:  -5px -5px 10px #eeeeee,
+             5px 5px 10px #ffffff;
 }
 
 .ptractors6 img {
@@ -240,6 +242,8 @@ bottom: 18%;
      border: 1px solid rgb(212, 202, 202);
      border-radius: 2px;
      margin: 5px;
+     box-shadow:  -5px -5px 10px #eeeeee,
+             5px 5px 10px #ffffff;
 }
 
 .btractors img {
@@ -384,6 +388,50 @@ bottom: 18%;
      transform: scale(98%);
      border: 2px solid rgb(58, 49, 49);
 }
+
+
+/* ANIMATED HEADING */
+.containerheading {
+     height: 9vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.437);
+     border: none;
+     border-radius: 20px;
+     padding: 5px;
+     margin-bottom: 50px;
+   }
+   .containerheading p {
+     font-size: 4vw;
+     padding: 0.5rem;
+     letter-spacing: 0.1rem;
+     text-align: center;
+   }
+   .containerheading p span.typed-text {
+     font-weight: 500;
+     color: rgb(255, 255, 255);
+   }
+   .containerheading p span.cursor {
+     display: inline-block;
+     background-color: rgb(255, 255, 255);
+     margin-left: 0.1rem;
+     width: 2px;
+     animation: blink 1s infinite;
+   }
+   .containerheading p span.cursor.typing {
+     animation: none;
+   }
+   @keyframes blink {
+     0%  { background-color: #ccc; }
+     49% { background-color: #ccc; }
+     50% { background-color: transparent; }
+     99% { background-color: transparent; }
+     100%  { background-color: #ccc; }
+   }
+
+
+/* media query */
 
 
 @media(max-width:769px){
