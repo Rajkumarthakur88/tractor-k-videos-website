@@ -14,6 +14,9 @@
      justify-content: center;
 }
 
+.navbar{
+     z-index: 1;
+}
 .carousel-item {
      width: 100%;
      height: 35vw;
@@ -194,9 +197,9 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     font-size: 1.8vw;
+     font-size: 2vw;
+     text-align: center;
 }
-
 .ptractors:hover {
 
      transform: scale(96.5%);
@@ -240,8 +243,8 @@
 }
 
 .btractors {
-     width: 25vw;
-     height: 22vw;
+     width: 24vw;
+     height: 24vw;
      display: flex;
      justify-content: center;
      border: 1px solid rgb(212, 202, 202);
@@ -252,7 +255,7 @@
 }
 
 .btractors img {
-     width: 60%;
+     width: 65%;
 }
 
 .btractors a {
@@ -262,7 +265,8 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     font-size: 1.8vw;
+     font-size: 2.2vw;
+     text-align: center;
 }
 
 .btractors:hover {
