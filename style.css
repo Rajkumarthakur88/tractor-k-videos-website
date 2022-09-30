@@ -398,7 +398,7 @@
 .swaraj-hero-section {
      width: 100%;
      height: auto;
-     padding: 22vw 0px;
+     padding:40.5vw 0 22vw 0px;
      background-image: url(./assets/swaraj-assets/swaraj-hero-image.jpg);
      background-size: 100%;
      background-repeat: no-repeat;
@@ -406,6 +406,17 @@
 
 }
 
+/* JOHN DEERE TRACTORS HERO SECTION */
+.john-deere-hero-section {
+     width: 100%;
+     height: auto;
+     padding:43.5vw 0 22vw 0px;
+     background-image: url(./assets/john-deere-assets/johndeere-hero-image.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+
+}
 
 /* ANIMATED HEADING */
 .containerheading {
@@ -467,10 +478,16 @@
      }
 }
 
+/* BACK TO TOP BUTTON */
+#btn-back-to-top {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     display: none;
+     }
 
-/* media query */
 
-
+/* MEDIA QUERY */
 @media(max-width:769px) {
      .hero-section-iframe iframe {
           width: 300px;
