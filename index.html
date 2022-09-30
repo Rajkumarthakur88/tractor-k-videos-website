@@ -104,12 +104,12 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                </button>
-               
+
                <!-- ANIMATED HEADING -->
 
                <div class="containerheading position-absolute">
                     <p> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                  </div>
+               </div>
 
 
                <!-- BUTTONS -->
@@ -200,11 +200,14 @@
                               href="https://www.avenger.co.in/AVENGER-35-60-HP-Tractors.html"><img
                                    src="./assets/AVENGER-65-4WD-XT-Canopy-ptractors.png" alt="Preet Avengers 65"> Preet
                               Avengers 65</a></div>
-                    <div class="ptractors ptractors8"><a href="https://eichertractors.in/eichertractors/eicher-tractor-485.php"><img src="./assets/eicher-tractor-485-ptractors.png"
-                                   alt="Eicher 485"> Eicher 485 </a></div>
+                    <div class="ptractors ptractors8"><a
+                              href="https://eichertractors.in/eichertractors/eicher-tractor-485.php"><img
+                                   src="./assets/eicher-tractor-485-ptractors.png" alt="Eicher 485"> Eicher 485 </a>
+                    </div>
 
-                    <div class="ptractors ptractors9"><a href="https://www.kubota.co.in/products/tractor/mu4501-2wd/"><img src="./assets/kubota-4501-ptractors.png"
-                                   alt="Kubota Mu-4501">
+                    <div class="ptractors ptractors9"><a
+                              href="https://www.kubota.co.in/products/tractor/mu4501-2wd/"><img
+                                   src="./assets/kubota-4501-ptractors.png" alt="Kubota Mu-4501">
                               Kubota Mu-4501 </a></div>
                     </a>
                </div>
@@ -218,8 +221,8 @@
                <h1>&nbsp;Tractors by Brand &nbsp;</h1>
                <div class="tractors-by-brand">
 
-                    <div class="btractors btractors1"><a href="./swaraj-tractors.html"><img src="./assets/swaraj-brand.png"
-                                   alt="Swaraj 855fe"> Swaraj
+                    <div class="btractors btractors1"><a href="./swaraj-tractors.html"><img
+                                   src="./assets/swaraj-brand.png" alt="Swaraj 855fe"> Swaraj
                          </a>
                     </div>
                     <div class="btractors btractors2"><a href="#"><img src="./assets/John-Deere-brand.png"
@@ -276,6 +279,14 @@
                </button>
           </div>
      </div>
+
+     <!-- Back to top button -->
+     <button type="button" class="btn btn-warning floating btn-lg" id="btn-back-to-top">
+          <i class="bi bi-arrow-up"></i>
+     </button>
+
+
+
      <!-- Footer -->
      <footer class="bg-dark text-center text-white">
           <!-- Grid container -->
@@ -348,7 +359,8 @@
                                              class="text-white text-decoration-none">Tractor brands</a>
                                    </li>
                                    <li>
-                                        <a href="./swaraj-tractors.html" class="text-white text-decoration-none">Swaraj</a>
+                                        <a href="./swaraj-tractors.html"
+                                             class="text-white text-decoration-none">Swaraj</a>
                                    </li>
                                    <li>
                                         <a href="#!" class="text-white text-decoration-none">Mahindra</a>
@@ -376,49 +388,77 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
           crossorigin="anonymous"></script>
-<script>
-     const typedTextSpan = document.querySelector(".typed-text");
-const cursorSpan = document.querySelector(".cursor");
+     <script>
+          const typedTextSpan = document.querySelector(".typed-text");
+          const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Welcome to Tractor  k videos"];
-const typingDelay = 200;
-const erasingDelay = 30;
-const newTextDelay = 2000; // Delay between current and next text
-let textArrayIndex = 0;
-let charIndex = 0;
+          const textArray = ["Welcome to Tractor  k videos"];
+          const typingDelay = 200;
+          const erasingDelay = 30;
+          const newTextDelay = 2000; // Delay between current and next text
+          let textArrayIndex = 0;
+          let charIndex = 0;
 
-function type() {
-  if (charIndex < textArray[textArrayIndex].length) {
-    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(type, typingDelay);
-  } 
-  else {
-    cursorSpan.classList.remove("typing");
-  	setTimeout(erase, newTextDelay);
-  }
-}
+          function type() {
+               if (charIndex < textArray[textArrayIndex].length) {
+                    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                    charIndex++;
+                    setTimeout(type, typingDelay);
+               }
+               else {
+                    cursorSpan.classList.remove("typing");
+                    setTimeout(erase, newTextDelay);
+               }
+          }
 
-function erase() {
-	if (charIndex > 0) {
-    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
-    charIndex--;
-    setTimeout(erase, erasingDelay);
-  } 
-  else {
-    cursorSpan.classList.remove("typing");
-    textArrayIndex++;
-    if(textArrayIndex>=textArray.length) textArrayIndex=0;
-    setTimeout(type, typingDelay + 1100);
-  }
-}
+          function erase() {
+               if (charIndex > 0) {
+                    if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                    charIndex--;
+                    setTimeout(erase, erasingDelay);
+               }
+               else {
+                    cursorSpan.classList.remove("typing");
+                    textArrayIndex++;
+                    if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                    setTimeout(type, typingDelay + 1100);
+               }
+          }
 
-document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
-  if(textArray.length) setTimeout(type, newTextDelay + 250);
-});
-</script>     
+          document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+               if (textArray.length) setTimeout(type, newTextDelay + 250);
+          });
+
+          //Get the button
+          let mybutton = document.getElementById("btn-back-to-top");
+
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function () {
+               scrollFunction();
+          };
+
+          function scrollFunction() {
+               if (
+                    document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20
+               ) {
+                    mybutton.style.display = "block";
+               } else {
+                    mybutton.style.display = "none";
+               }
+          }
+          // When the user clicks on the button, scroll to the top of the document
+          mybutton.addEventListener("click", backToTop);
+
+          function backToTop() {
+               document.body.scrollTop = 0;
+               document.documentElement.scrollTop = 0;
+          }
+
+
+     </script>
 
 </body>
 
