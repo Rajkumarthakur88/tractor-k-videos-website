@@ -422,6 +422,41 @@
      background-position: center;
 
 }
+/* MASSEY TRACTORS HERO SECTION */
+.massey-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/masssey-assets/massey-hero-image.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+
+}
+
+/* MAHINDRA TRACTORS HERO SECTION */
+.mahindra-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/mahindra-assets/mahindra-hero-bg.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+
+}
+
+/* MAHINDRA TRACTORS HERO SECTION */
+.kubota-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/kubota-assets/kubota-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+
+}
 
 /* ANIMATED HEADING */
 .containerheading {
@@ -505,4 +540,8 @@
           height: 5vh;
      }
 
+     .massey-hero-section {
+       
+          background-position: 100% 45%;
+}
 }
