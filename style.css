@@ -446,7 +446,7 @@
 
 }
 
-/* MAHINDRA TRACTORS HERO SECTION */
+/* KUBOTA TRACTORS HERO SECTION */
 .kubota-hero-section {
      width: 100%;
      height: auto;
@@ -456,6 +456,30 @@
      background-repeat: no-repeat;
      background-position: 100% 25%;
 
+}
+
+/* EICHER TRACTORS HERO SECTION */
+.eicher-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/eicher-assets/eicher-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+
+}
+
+
+/* EICHER TRACTORS HERO SECTION */
+.farmtrac-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/farmtrac-tractors/farmtrac-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
 }
 
 /* ANIMATED HEADING */
