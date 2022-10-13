@@ -471,7 +471,7 @@
 }
 
 
-/* EICHER TRACTORS HERO SECTION */
+/* FARMTRAC TRACTORS HERO SECTION */
 .farmtrac-hero-section {
      width: 100%;
      height: auto;
@@ -481,6 +481,52 @@
      background-repeat: no-repeat;
      background-position: 100% 25%;
 }
+
+/* POWERTRAC TRACTORS HERO SECTION */
+.powertrac-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/powertrac-assets/poawertrac-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
+
+/*SOLIS TRACTORS HERO SECTION */
+.solis-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/solis-assets/solis-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
+
+
+/*KARTAR TRACTORS HERO SECTION */
+.kartar-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/kartar-assets/kartar-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
+
+/*INDOFARM TRACTORS HERO SECTION */
+.indofarm-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/indofarm-assets/indofarm-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
+
 
 /* ANIMATED HEADING */
 .containerheading {
