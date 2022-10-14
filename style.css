@@ -128,8 +128,6 @@
 
 }
 
-
-
 /* popular-tractors */
 
 .popular-tractors-container {
@@ -527,6 +525,28 @@
      background-position: 100% 25%;
 }
 
+
+/*DEUTZFAHR TRACTORS HERO SECTION */
+.deutzfahr-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/deutzfahr-assets/deutzfahr-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
+
+/*PREET AVENGERS TRACTORS HERO SECTION */
+.preetavengers-hero-section {
+     width: 100%;
+     height: auto;
+     padding:50vw 0 0vw 0px;
+     background-image: url(./assets/preet-avengers-asseets/avengers-hero-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: 100% 25%;
+}
 
 /* ANIMATED HEADING */
 .containerheading {
