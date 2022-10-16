@@ -354,6 +354,10 @@
      text-align: center;
 }
 
+.tractor-comparison-container a {
+     text-decoration: none;
+}
+
 .tractor-comparison-container img {
      width: 90vw;
      height: 70vh;
