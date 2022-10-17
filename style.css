@@ -643,11 +643,7 @@
 
           /* HERO-SECTION */
 
-     .hero-section-iframe iframe {
-          width: 300px;
-          height: 150px;
-
-     }
+    
 
      /* ANIMATED HEADING */
      .containerheading {
@@ -739,7 +735,11 @@
           width: 90vw;
           height: auto;
      }
+     /* Navbar-mobile */
      .mobile-links{
           display: block;
      }
-}
+          .mobile-links a{
+               font-size: 3.4vw;
+          }
+     }
