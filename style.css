@@ -1,5 +1,5 @@
 .body {
-  background-color: #f4f3f3;
+  background-color: #fcfcfc;
 }
 
 /* NAV-BAR */
@@ -48,10 +48,10 @@
   height: 100%;
 }
 
-.btn-group {
+/* .btn-group {
   position: absolute;
   bottom: 18%;
-}
+} */
 
 /* hero-section */
 .hero-section {
@@ -80,25 +80,10 @@
   background-color: rgb(240, 135, 5);
   border-radius: 0px 25px 0px 25px;
 }
-
-.hero-section-iframe {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.hero-section-iframe iframe {
-  width: 500px;
-  height: 250px;
-  padding: 5px;
-}
-
-.hero-section-iframe :hover {
-  filter: brightness(1.4);
+.hero-section-container {
+  background-color: rgba(226, 221, 221, 0.159);
+  border: none;
+  border-radius: 100px 100px;
 }
 
 /* popular-tractors */
@@ -303,7 +288,7 @@
   margin: 10px;
   border: 1px rgb(39, 37, 37) solid;
   border-radius: 3px;
-  background-color: rgba(239, 240, 233, 0.863);
+  background-color: rgb(252, 248, 248);
   color: black;
   font-size: 1.8vw;
   font-weight: 600;
